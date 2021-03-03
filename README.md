@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Introduction
+This program is being written to help small real estate owners the ability to log transactions and see in real time how much profit and loss they are making on building. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Technology Used
+This is being built using Ruby on Rails 6.3.1
+Checkout the 
