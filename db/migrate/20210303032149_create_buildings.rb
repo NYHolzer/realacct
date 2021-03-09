@@ -6,7 +6,7 @@ class CreateBuildings < ActiveRecord::Migration[6.1]
       t.string :city
       t.string :state
       t.string :zipcode
-      t.blob :image
+      t.binary :image
 
       t.timestamps
     end
