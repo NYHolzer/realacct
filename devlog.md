@@ -1,3 +1,7 @@
+## Next Time
+1. Add styling to table of buildings?
+2. Add apartments to buildings
+
 ## 3/8/2021
 My goals for today's coding is to get the building index all hooked up and perhaps start on the apartments. 
 Along the way, I also hope to answer questions that come up and note them here for future reference.
@@ -42,6 +46,22 @@ NATIVE_DATABASE_TYPES = {
 - :blob - similar to binary, contains the metadata about a file. Blobs are intended to be immutable
 - :boolean - self explanatory - true/false
 - :json - from Rails 5 onwards, you can natively store JSON values thanks to this Pull Request. A lot of people still use Postgres' jsonb datatype though.
+
+This was a great reference.
+However, its wrong about blob. Finally found the documentation on [rubyonrails.org](https://guides.rubyonrails.org/v3.2/migrations.html) site that lists the Active Record supported database column types: 
+Active Record supports the following database column types:
+- :binary
+- :boolean
+- :date
+- :datetime
+- :decimal
+- :float
+- :integer
+- :primary_key
+- :string
+- :text
+- :time
+- :timestamp
 
 ### How to handle images in Ruby on Rails?
 Ideally, developers in the past have used [paperclip](https://github.com/thoughtbot/paperclip) to help save the files to cloud servers. However, now Rails actually has its own [Active Storage](https://guides.rubyonrails.org/active_storage_overview.html)
